@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Theme tokens — fill these in during Phase 0 */
+  --color-bg: #ffffff;
+  --color-fg: #111111;
+  --ease-standard: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-fg);
+}
