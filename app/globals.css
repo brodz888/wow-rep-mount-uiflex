@@ -3,13 +3,17 @@
 @tailwind utilities;
 
 :root {
-  /* Theme tokens — fill these in during Phase 0 */
-  --color-bg: #ffffff;
-  --color-fg: #111111;
+  --bg-void: #0A0B0F;
+  --surface-raised: #14161D;
+  --surface-border: #1F2130;
+  --accent-gold: #C8AA6E;
+  --text-primary: #E8E8EA;
+  --text-muted: #5A5C6E;
   --ease-standard: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 body {
-  background: var(--color-bg);
-  color: var(--color-fg);
+  background: var(--bg-void);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
 }
