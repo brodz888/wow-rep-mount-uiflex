@@ -5,11 +5,15 @@ import { useRouter } from "next/navigation";
 
 const REGIONS = ["us", "eu", "kr", "tw"];
 
-export default function LookupForm() {
+interface Props {
+  defaultValues?: { character?: string; realm?: string; region?: string };
+}
+
+export default function LookupForm({ defaultValues }: Props) {
   const router = useRouter();
-  const [character, setCharacter] = useState("");
-  const [realm, setRealm] = useState("");
-  const [region, setRegion] = useState("us");
+  const [character, setCharacter] = useState(defaultValues?.character ?? "");
+  const [realm, setRealm] = useState(defaultValues?.realm ?? "");
+  const [region, setRegion] = useState(defaultValues?.region ?? "us");
 
   function handleSubmit(e: FormEvent) {
     e.preventDefault();

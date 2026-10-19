@@ -40,16 +40,22 @@ export default async function Home({ searchParams }: PageProps) {
             <h1 className="font-display text-3xl font-semibold text-primary">RepMount</h1>
             <p className="mt-1 text-sm text-muted">Find every mount you can buy right now.</p>
           </div>
-          <LookupForm />
+          <LookupForm defaultValues={{ character, realm, region }} />
         </>
       )}
 
       {hasQuery && error && (
-        <p className="text-red-400 text-sm">{error}</p>
+        <>
+          <p className="text-red-400 text-sm">{error}</p>
+          <a href="/" className="mt-4 text-sm text-muted hover:text-primary transition-colors">← New search</a>
+        </>
       )}
 
       {hasQuery && characterData && (
         <div className="flex flex-col items-center gap-6 w-full max-w-2xl">
+          <div className="flex items-center justify-between w-full">
+            <a href="/" className="text-sm text-muted hover:text-primary transition-colors">← New search</a>
+          </div>
           <HeroCard
             name={characterData.summary.name}
             className={characterData.summary.character_class.name}

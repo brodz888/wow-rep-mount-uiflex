@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { motion, useReducedMotion } from "framer-motion";
 import { getClassColor } from "@/lib/classColors";
 
 interface Props {
@@ -14,8 +15,15 @@ interface Props {
 export default function HeroCard({ name, className, realm, race, avatarUrl }: Props) {
   const classColor = getClassColor(className);
 
+  const reduced = useReducedMotion();
+
   return (
-    <div className="relative flex items-center gap-4 rounded-xl border border-border bg-surface px-5 py-4 w-full max-w-2xl">
+    <motion.div
+      className="relative flex items-center gap-4 rounded-xl border border-border bg-surface px-5 py-4 w-full max-w-2xl"
+      initial={reduced ? false : { opacity: 0, y: 16 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
+    >
       {/* Ambient glow */}
       <div
         className="absolute inset-0 rounded-xl opacity-10 blur-2xl pointer-events-none"
@@ -34,6 +42,6 @@ export default function HeroCard({ name, className, realm, race, avatarUrl }: Pr
         <p className="text-sm font-medium" style={{ color: classColor }}>{className}</p>
         <p className="text-xs text-muted">{race} · {realm}</p>
       </div>
-    </div>
+    </motion.div>
   );
 }
