@@ -31,8 +31,7 @@ export default function HeroCard({ name, className, realm, race, avatarUrl }: Pr
       />
 
       {/* Avatar */}
-      <div className="shrink-0 rounded-lg overflow-hidden ring-2"
-        style={{ ringColor: classColor }}>
+      <div className="shrink-0 rounded-lg overflow-hidden ring-2">
         <Image src={avatarUrl} alt={name} width={64} height={64} className="block" />
       </div>
 
