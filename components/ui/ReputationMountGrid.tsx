@@ -8,6 +8,7 @@ interface Mount {
   factionName: string;
   cost: string;
   vendorName: string;
+  vendorId: number;
   vendorZone: string;
 }
 
@@ -31,7 +32,14 @@ function MountCard({ mount, accentColor, index }: { mount: Mount; accentColor: s
       <p className="font-display font-semibold text-primary">{mount.name}</p>
       <p className="text-sm text-muted">{mount.factionName}</p>
       <p className="text-sm text-gold mt-1">{mount.cost}</p>
-      <p className="text-xs text-muted mt-1">{mount.vendorName} · {mount.vendorZone}</p>
+      <a
+        href={`https://www.wowhead.com/npc=${mount.vendorId}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-xs text-muted hover:text-primary transition-colors mt-1"
+      >
+        {mount.vendorName} · {mount.vendorZone}
+      </a>
     </motion.div>
   );
 }

@@ -3,6 +3,7 @@ export interface Mount {
   name: string;
   cost: string;
   vendorName: string;
+  vendorId: number;
   vendorZone: string;
 }
 

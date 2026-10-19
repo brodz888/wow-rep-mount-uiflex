@@ -8,6 +8,7 @@
         "name": "Resonant Echo",
         "cost": "5,000g",
         "vendorName": "Duchess Mynx",
+        "vendorId": 174594,
         "vendorZone": "Korthia"
       }
     ]
@@ -21,6 +22,7 @@
         "name": "Harvester's Dredwing",
         "cost": "5,000g",
         "vendorName": "Mikanikos",
+        "vendorId": 166393,
         "vendorZone": "Revendreth"
       }
     ]
@@ -34,6 +36,7 @@
         "name": "Silver Covenant Hippogryph",
         "cost": "150 Champion's Seal",
         "vendorName": "Hiren Loresong",
+        "vendorId": 32658,
         "vendorZone": "Dalaran (Northrend)"
       }
     ]
@@ -47,6 +50,7 @@
         "name": "Ascended Skymane",
         "cost": "5,000g",
         "vendorName": "Adjutant Nikos",
+        "vendorId": 171451,
         "vendorZone": "Bastion"
       }
     ]
