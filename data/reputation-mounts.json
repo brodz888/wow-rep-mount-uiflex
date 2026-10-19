@@ -8,22 +8,8 @@
         "name": "Resonant Echo",
         "cost": "5,000g",
         "vendorName": "Duchess Mynx",
-        "vendorId": 174594,
+        "vendorId": 179321,
         "vendorZone": "Korthia"
-      }
-    ]
-  },
-  {
-    "factionId": 2413,
-    "factionName": "Court of Harvesters",
-    "mounts": [
-      {
-        "mountId": 1393,
-        "name": "Harvester's Dredwing",
-        "cost": "5,000g",
-        "vendorName": "Mikanikos",
-        "vendorId": 166393,
-        "vendorZone": "Revendreth"
       }
     ]
   },
@@ -36,22 +22,8 @@
         "name": "Silver Covenant Hippogryph",
         "cost": "150 Champion's Seal",
         "vendorName": "Hiren Loresong",
-        "vendorId": 32658,
+        "vendorId": 167030,
         "vendorZone": "Dalaran (Northrend)"
-      }
-    ]
-  },
-  {
-    "factionId": 2407,
-    "factionName": "The Ascended",
-    "mounts": [
-      {
-        "mountId": 1390,
-        "name": "Ascended Skymane",
-        "cost": "5,000g",
-        "vendorName": "Adjutant Nikos",
-        "vendorId": 171451,
-        "vendorZone": "Bastion"
       }
     ]
   }
