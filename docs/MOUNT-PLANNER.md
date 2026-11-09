@@ -71,6 +71,10 @@ keeps the dataset small, accurate, and easy to maintain by hand.
 - Mount IDs can be confirmed via Wowhead or the item Game Data API
 - The file is static — no build step, no script. Edit it directly.
 
+## TODOs
+- **Domesticated Razorback** (Steamwheedle Preservation Society) is sold by two vendors — currently only one is in the dataset. After the single-vendor → `vendors` array refactor, add the second vendor.
+- **Grand Ice Mammoth** and **Ice Mammoth** (The Sons of Hodir) are each sold by two vendors — same situation, add the second vendors after the refactor.
+
 ## Known limitation — "already owned" filtering
 Without user OAuth login, the app cannot check whether the character
 already owns a given mount. The results show all purchasable mounts based

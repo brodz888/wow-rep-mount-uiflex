@@ -22,5 +22,5 @@ export interface ReputationStanding {
 
 export interface MountResults {
   available: (Mount & { factionName: string })[];
-  almostThere: (Mount & { factionName: string })[];
+  almostThere: (Mount & { factionName: string; tier: number })[];
 }

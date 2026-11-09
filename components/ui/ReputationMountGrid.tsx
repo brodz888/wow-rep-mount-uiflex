@@ -16,7 +16,21 @@ interface Mount {
 
 interface Props {
   available: Mount[];
-  almostThere: Mount[];
+  almostThere: (Mount & { tier: number })[];
+}
+
+function TierBar({ tier }: { tier: number }) {
+  return (
+    <div className="flex gap-0.5 mt-2">
+      {Array.from({ length: 8 }).map((_, i) => (
+        <div
+          key={i}
+          className="h-1 flex-1 rounded-full"
+          style={{ background: i < tier ? "var(--rep-revered)" : "var(--surface-border)" }}
+        />
+      ))}
+    </div>
+  );
 }
 
 function MountCard({ mount, accentColor, index }: { mount: Mount; accentColor: string; index: number }) {
@@ -42,7 +56,7 @@ function MountCard({ mount, accentColor, index }: { mount: Mount; accentColor: s
       >
         {mount.vendorName} · {mount.vendorZone}
       </a>
-
+      {mount.tier !== undefined && <TierBar tier={mount.tier} />}
     </motion.div>
   );
 }
