@@ -5,7 +5,7 @@ export function crossReferenceMounts(
   dataset: FactionEntry[]
 ): MountResults {
   const standingMap = new Map(
-    reputations.map((r) => [r.faction.id, r.standing.name])
+    reputations.map((r) => [r.faction.id, r.standing.name.toLowerCase()])
   );
 
   const available: MountResults["available"] = [];
@@ -13,10 +13,15 @@ export function crossReferenceMounts(
 
   for (const faction of dataset) {
     const standing = standingMap.get(faction.factionId);
-    const mounts = faction.mounts.map((m) => ({ ...m, factionName: faction.factionName }));
+    if (!standing) continue;
 
-    if (standing === "Exalted") available.push(...mounts);
-    else if (standing === "Revered") almostThere.push(...mounts);
+    const enriched = faction.mounts.map((m) => ({ ...m, factionName: faction.factionName }));
+
+    if (standing === "exalted") {
+      available.push(...enriched);
+    } else if (standing === "revered") {
+      almostThere.push(...enriched);
+    }
   }
 
   return { available, almostThere };

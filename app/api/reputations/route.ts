@@ -1,7 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getReputations } from "@/lib/blizzard";
 import { crossReferenceMounts } from "@/lib/reputations";
-import dataset from "@/data/reputation-mounts.json";
+import dataset from "@/data/reputation-mounts.json" assert { type: "json" };
+import type { FactionEntry } from "@/lib/types";
 
 export async function GET(req: NextRequest) {
   const { searchParams } = req.nextUrl;
@@ -13,7 +14,7 @@ export async function GET(req: NextRequest) {
 
   try {
     const data = await getReputations(realm, character) as { reputations: any[] };
-    const results = crossReferenceMounts(data.reputations, dataset);
+    const results = crossReferenceMounts(data.reputations, dataset as unknown as FactionEntry[]);
     return NextResponse.json(results);
   } catch (e: any) {
     return NextResponse.json({ error: e.message }, { status: 500 });

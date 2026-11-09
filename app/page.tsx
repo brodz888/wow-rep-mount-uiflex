@@ -4,6 +4,7 @@ import ReputationMountGrid from "@/components/ui/ReputationMountGrid";
 import { getCharacter, getCharacterMedia, getReputations } from "@/lib/blizzard";
 import { crossReferenceMounts } from "@/lib/reputations";
 import dataset from "@/data/reputation-mounts.json";
+import type { FactionEntry } from "@/lib/types";
 
 interface PageProps {
   searchParams: Promise<{ character?: string; realm?: string; region?: string }>;
@@ -26,7 +27,7 @@ export default async function Home({ searchParams }: PageProps) {
       ]) as any[];
 
       characterData = { summary, media };
-      mountResults = crossReferenceMounts(reps.reputations, dataset);
+      mountResults = crossReferenceMounts(reps.reputations, dataset as unknown as FactionEntry[]);
     } catch (e: any) {
       error = e.message;
     }

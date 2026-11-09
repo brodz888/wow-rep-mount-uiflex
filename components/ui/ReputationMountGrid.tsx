@@ -7,9 +7,11 @@ interface Mount {
   name: string;
   factionName: string;
   cost: string;
+  faction?: "alliance" | "horde";
   vendorName: string;
   vendorId: number;
   vendorZone: string;
+  tier?: number;
 }
 
 interface Props {
@@ -40,6 +42,7 @@ function MountCard({ mount, accentColor, index }: { mount: Mount; accentColor: s
       >
         {mount.vendorName} · {mount.vendorZone}
       </a>
+
     </motion.div>
   );
 }
