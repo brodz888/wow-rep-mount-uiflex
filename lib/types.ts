@@ -1,17 +1,20 @@
 export interface Mount {
-  mountId: number;
+  mountId: number | null;
   name: string;
-  cost: string;
+  cost?: string;
   faction?: "alliance" | "horde";
-  requiredStanding?: "revered" | "honored" | "friendly";
-  vendorName: string;
-  vendorId: number;
-  vendorZone: string;
+  requiredStanding?: string;
+  requiredRenown?: number;
+  vendorName: string | null;
+  vendorId: number | null;
+  vendorZone: string | null;
 }
 
 export interface FactionEntry {
-  factionId: number;
+  factionId: number | null;
   factionName: string;
+  expansion?: string;
+  faction?: "alliance" | "horde";
   mounts: Mount[];
 }
 

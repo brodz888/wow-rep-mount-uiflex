@@ -15,7 +15,11 @@ export function crossReferenceMounts(
     const standing = standingMap.get(faction.factionId);
     if (!standing) continue;
 
-    const enriched = faction.mounts.map((m) => ({ ...m, factionName: faction.factionName }));
+    const enriched = faction.mounts.map((m) => ({
+      ...m,
+      faction: m.faction ?? faction.faction,
+      factionName: faction.factionName,
+    }));
 
     if (standing.name === "exalted") {
       available.push(...enriched);
