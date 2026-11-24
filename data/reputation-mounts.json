@@ -251,165 +251,140 @@
         "mountId": 223571,
         "name": "Shale Ramolith",
         "requiredRenown": 18,
-        "vendorName": "ADDVENDORNAMEHERE",
-        "vendorId": null,
+        "vendorName": "Auditor Balwurz",
+        "vendorId": 223728,
         "vendorZone": "Dornogal",
         "cost": "8,125 Resonance Crystals"
       },
       {
-        "mountId": null,
+        "mountId": 223571,
         "name": "Smoldering Cinderbee",
         "requiredRenown": 23,
-        "vendorName": "ADDVENDORNAMEHERE",
-        "vendorId": null,
+        "vendorName": "Auditor Balwurz",
+        "vendorId": 223728,
         "vendorZone": "Dornogal",
-        "cost": "ADDCOSTHERE"
+        "cost": "11,375 Resonance Crystals"
       }
     ]
   },
   {
-    "factionId": null,
+    "factionId": 2570,
     "factionName": "Hallowfall Arathi",
     "expansion": "The War Within",
     "mounts": [
       {
-        "mountId": null,
+        "mountId": 223317,
         "name": "Vermillion Imperial Lynx",
         "requiredRenown": 21,
-        "vendorName": "ADDVENDORNAMEHERE",
-        "vendorId": null,
+        "vendorName": "Auralia Steelstrike",
+        "vendorId": 213145,
         "vendorZone": "Hallowfall",
-        "cost": "ADDCOSTHERE"
+        "cost": "8,125 Resonance Crystals"
       },
       {
-        "mountId": null,
+        "mountId": 223314,
         "name": "Shackled Shadow",
         "requiredRenown": 23,
-        "vendorName": "ADDVENDORNAMEHERE",
-        "vendorId": null,
+        "vendorName": "Auralia Steelstrike",
+        "vendorId": 213145,
         "vendorZone": "Hallowfall",
-        "cost": "ADDCOSTHERE"
+        "cost": "11,375 Resonance Crystals"
       }
     ]
   },
   {
-    "factionId": null,
-    "factionName": "Manaforge Vandals",
-    "expansion": "The War Within",
-    "mounts": [
-      {
-        "mountId": null,
-        "name": "Vandal's Gearglider",
-        "requiredRenown": 8,
-        "vendorName": "ADDVENDORNAMEHERE",
-        "vendorId": null,
-        "vendorZone": "Undermine",
-        "cost": "ADDCOSTHERE"
-      },
-      {
-        "mountId": null,
-        "name": "The Bone Freezer",
-        "requiredRenown": 14,
-        "vendorName": "ADDVENDORNAMEHERE",
-        "vendorId": null,
-        "vendorZone": "Undermine",
-        "cost": "ADDCOSTHERE"
-      }
-    ]
-  },
-  {
-    "factionId": null,
+    "factionId": 2600,
     "factionName": "The Severed Threads",
     "expansion": "The War Within",
     "mounts": [
       {
-        "mountId": null,
+        "mountId": 223274,
         "name": "Ferocious Jawcrawler",
         "requiredRenown": 22,
-        "vendorName": "ADDVENDORNAMEHERE",
-        "vendorId": null,
+        "vendorName": "Lady Vinazian",
+        "vendorId": 223750,
         "vendorZone": "Undermine",
-        "cost": "ADDCOSTHERE"
+        "cost": "2,815 Kej"
       },
       {
-        "mountId": null,
+        "mountId": 223264,
         "name": "Aquamarine Swarmite",
         "requiredRenown": 23,
-        "vendorName": "ADDVENDORNAMEHERE",
-        "vendorId": null,
+        "vendorName": "Lady Vinazian",
+        "vendorId": 223750,
         "vendorZone": "Undermine",
-        "cost": "ADDCOSTHERE"
+        "cost": "3,940 Kej"
       }
     ]
   },
   {
-    "factionId": null,
+    "factionId": 2594,
     "factionName": "The Assembly of the Deeps",
     "expansion": "The War Within",
     "mounts": [
       {
-        "mountId": null,
+        "mountId": 223505,
         "name": "Crimson Mudnose",
         "requiredRenown": 19,
-        "vendorName": "ADDVENDORNAMEHERE",
-        "vendorId": null,
+        "vendorName": "Waxmonger Squick",
+        "vendorId": 221390,
         "vendorZone": "The Ringing Deeps",
-        "cost": "ADDCOSTHERE"
+        "cost": "8,125 Resonance Crystals"
       },
       {
-        "mountId": null,
+        "mountId": 222989,
         "name": "Cyan Glowmite",
         "requiredRenown": 23,
-        "vendorName": "ADDVENDORNAMEHERE",
-        "vendorId": null,
+        "vendorName": "Waxmonger Squick",
+        "vendorId": 221390,
         "vendorZone": "The Ringing Deeps",
-        "cost": "ADDCOSTHERE"
+        "cost": "11,375 Resonance Crystals"
       }
     ]
   },
   {
-    "factionId": null,
+    "factionId": 2653,
     "factionName": "The Cartels of Undermine",
     "expansion": "The War Within",
     "mounts": [
       {
-        "mountId": null,
+        "mountId": 229936,
         "name": "Violet Armored Growler",
         "requiredRenown": 15,
-        "vendorName": "ADDVENDORNAMEHERE",
-        "vendorId": null,
+        "vendorName": "Smaks Topskimmer",
+        "vendorId": 231409,
         "vendorZone": "Undermine",
-        "cost": "ADDCOSTHERE"
+        "cost": "8,125 Resonance Crystals"
       },
       {
-        "mountId": null,
+        "mountId": 229944,
         "name": "The Topskimmer Special",
         "requiredRenown": 19,
-        "vendorName": "ADDVENDORNAMEHERE",
-        "vendorId": null,
+        "vendorName": "Smaks Topskimmer",
+        "vendorId": 231409,
         "vendorZone": "Undermine",
-        "cost": "ADDCOSTHERE"
+        "cost": "11,375 Resonance Crystals"
       }
     ]
   },
   {
-    "factionId": null,
+    "factionId": 2673,
     "factionName": "Bilgewater Cartel (Undermine)",
     "expansion": "The War Within",
     "mounts": [
       {
-        "mountId": null,
+        "mountId": 229935,
         "name": "Crimson Armored Growler",
         "requiredStanding": "exalted",
-        "vendorName": "ADDVENDORNAMEHERE",
-        "vendorId": null,
+        "vendorName": "Rocco Razzboom",
+        "vendorId": 231406,
         "vendorZone": "Undermine",
-        "cost": "ADDCOSTHERE"
+        "cost": "8,125 Resonance Crystals"
       }
     ]
   },
   {
-    "factionId": null,
+    "factionId": 2601,
     "factionName": "The Weaver",
     "expansion": "The War Within",
     "mounts": [
@@ -425,7 +400,7 @@
     ]
   },
   {
-    "factionId": null,
+    "factionId": 2607,
     "factionName": "The Vizier",
     "expansion": "The War Within",
     "mounts": [
@@ -441,7 +416,7 @@
     ]
   },
   {
-    "factionId": null,
+    "factionId": 2677,
     "factionName": "Steamwheedle Cartel",
     "expansion": "The War Within",
     "mounts": [
@@ -457,7 +432,7 @@
     ]
   },
   {
-    "factionId": null,
+    "factionId": 2605,
     "factionName": "The General",
     "expansion": "The War Within",
     "mounts": [
@@ -473,7 +448,7 @@
     ]
   },
   {
-    "factionId": null,
+    "factionId": 2675,
     "factionName": "Blackwater Cartel",
     "expansion": "The War Within",
     "mounts": [
@@ -489,7 +464,7 @@
     ]
   },
   {
-    "factionId": null,
+    "factionId": 2688,
     "factionName": "Flame's Radiance",
     "expansion": "The War Within",
     "mounts": [
@@ -521,7 +496,7 @@
     ]
   },
   {
-    "factionId": null,
+    "factionId": 2671,
     "factionName": "Venture Company",
     "expansion": "The War Within",
     "mounts": [
@@ -537,7 +512,7 @@
     ]
   },
   {
-    "factionId": null,
+    "factionId": 2507,
     "factionName": "Dragonscale Expedition",
     "expansion": "Dragonflight",
     "mounts": [
@@ -562,7 +537,7 @@
     ]
   },
   {
-    "factionId": null,
+    "factionId": 2574,
     "factionName": "Dream Wardens",
     "expansion": "Dragonflight",
     "mounts": [
@@ -641,7 +616,7 @@
     ]
   },
   {
-    "factionId": null,
+    "factionId": 2511,
     "factionName": "Iskaara Tuskarr",
     "expansion": "Dragonflight",
     "mounts": [
@@ -684,7 +659,7 @@
     ]
   },
   {
-    "factionId": null,
+    "factionId": 2564,
     "factionName": "Loamm Niffen",
     "expansion": "Dragonflight",
     "mounts": [

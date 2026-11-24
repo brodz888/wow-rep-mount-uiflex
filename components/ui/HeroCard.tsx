@@ -30,9 +30,16 @@ export default function HeroCard({ name, className, realm, race, avatarUrl }: Pr
         style={{ background: classColor }}
       />
 
-      {/* Avatar */}
-      <div className="shrink-0 rounded-lg overflow-hidden ring-2">
-        <Image src={avatarUrl} alt={name} width={64} height={64} className="block" />
+      {/* Avatar — Blizzard bust crop, upscaled */}
+      <div className="shrink-0 rounded-lg overflow-hidden" style={{ width: 80, height: 80 }}>
+        <Image
+          src={avatarUrl}
+          alt={name}
+          width={100}
+          height={100}
+          className="block w-full h-full"
+
+        />
       </div>
 
       {/* Info */}

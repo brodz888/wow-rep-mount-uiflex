@@ -20,10 +20,10 @@ export interface FactionEntry {
 
 export interface ReputationStanding {
   faction: { id: number; name: string };
-  standing: { name: string; tier: number };
+  standing: { name: string; tier?: number; renown_level?: number };
 }
 
 export interface MountResults {
-  available: (Mount & { factionName: string })[];
-  almostThere: (Mount & { factionName: string; tier: number })[];
+  available: (Mount & { factionName: string; expansion: string })[];
+  almostThere: (Mount & { factionName: string; expansion: string; tier: number })[];
 }

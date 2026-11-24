@@ -5,13 +5,14 @@ export function crossReferenceMounts(
   dataset: FactionEntry[]
 ): MountResults {
   const standingMap = new Map(
-    reputations.map((r) => [r.faction.id, { name: r.standing.name.toLowerCase(), tier: r.standing.tier }])
+    reputations.map((r) => [r.faction.id, r.standing])
   );
 
   const available: MountResults["available"] = [];
   const almostThere: MountResults["almostThere"] = [];
 
   for (const faction of dataset) {
+    if (faction.factionId === null) continue;
     const standing = standingMap.get(faction.factionId);
     if (!standing) continue;
 
@@ -19,12 +20,26 @@ export function crossReferenceMounts(
       ...m,
       faction: m.faction ?? faction.faction,
       factionName: faction.factionName,
+      expansion: faction.expansion ?? "Other",
     }));
 
-    if (standing.name === "exalted") {
-      available.push(...enriched);
-    } else if (standing.name === "revered") {
-      almostThere.push(...enriched.map((m) => ({ ...m, tier: standing.tier })));
+    const isRenown = standing.renown_level !== undefined;
+
+    if (isRenown) {
+      const level = standing.renown_level!;
+      for (const m of enriched) {
+        if (m.requiredRenown === undefined || level >= m.requiredRenown) {
+          available.push(m);
+        }
+      }
+    } else {
+      const tierName = standing.name.toLowerCase();
+      const tier = standing.tier ?? 0;
+      if (tierName === "exalted" || tierName === "mastermind") {
+        available.push(...enriched);
+      } else if (tierName === "revered") {
+        almostThere.push(...enriched.map((m) => ({ ...m, tier })));
+      }
     }
   }
 

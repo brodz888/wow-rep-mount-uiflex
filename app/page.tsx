@@ -26,7 +26,9 @@ export default async function Home({ searchParams }: PageProps) {
         getReputations(realm!, character!),
       ]) as any[];
 
-      characterData = { summary, media };
+      const avatar = media.assets.find((a: any) => a.key === "avatar")?.value
+        ?? media.assets.find((a: any) => a.key === "main-raw")?.value;
+      characterData = { summary, avatarUrl: avatar };
       mountResults = crossReferenceMounts(reps.reputations, dataset as unknown as FactionEntry[]);
     } catch (e: any) {
       error = e.message;
@@ -62,7 +64,7 @@ export default async function Home({ searchParams }: PageProps) {
             className={characterData.summary.character_class.name}
             realm={characterData.summary.realm.name}
             race={characterData.summary.race.name}
-            avatarUrl={characterData.media.assets[0].value}
+            avatarUrl={characterData.avatarUrl}
           />
           <ReputationMountGrid
             available={mountResults.available}
