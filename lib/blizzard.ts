@@ -57,3 +57,9 @@ export function getCharacterMedia(realm: string, character: string) {
     `/profile/wow/character/${realm}/${character}/character-media?namespace=profile-${REGION}`
   );
 }
+
+export function getMountCollection(realm: string, character: string) {
+  return blizzardFetch(
+    `/profile/wow/character/${realm}/${character}/collections/mounts?namespace=profile-${REGION}`
+  );
+}

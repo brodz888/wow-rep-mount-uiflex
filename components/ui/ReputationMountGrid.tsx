@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
+import type { AlmostThereProgress } from "@/lib/types";
 
 interface Mount {
   mountId: number | null;
@@ -9,16 +10,18 @@ interface Mount {
   factionName: string;
   expansion: string;
   cost: string;
+  owned: boolean;
   faction?: "alliance" | "horde";
   vendorName: string | null;
   vendorId: number | null;
   vendorZone: string | null;
-  tier?: number;
 }
+
+type AlmostThereMount = Mount & AlmostThereProgress;
 
 interface Props {
   available: Mount[];
-  almostThere: (Mount & { tier: number })[];
+  almostThere: AlmostThereMount[];
 }
 
 const EXPANSION_ORDER = [
@@ -51,10 +54,10 @@ const EXPANSION_COLORS: Record<string, string> = {
   "Other":                  "#C8AA6E",
 };
 
-function TierBar({ tier, color }: { tier: number; color: string }) {
+function TierBar({ tier, tierCount, color }: { tier: number; tierCount: number; color: string }) {
   return (
     <div className="flex gap-0.5 mt-2">
-      {Array.from({ length: 8 }).map((_, i) => (
+      {Array.from({ length: tierCount }).map((_, i) => (
         <div
           key={i}
           className="h-1 flex-1 rounded-full"
@@ -65,19 +68,37 @@ function TierBar({ tier, color }: { tier: number; color: string }) {
   );
 }
 
-function MountCard({ mount, color, index }: { mount: Mount; color: string; index: number }) {
+function Progress({ mount, color }: { mount: AlmostThereMount; color: string }) {
+  if (mount.kind === "standing") {
+    return <TierBar tier={mount.tier} tierCount={mount.tierCount} color={color} />;
+  }
+  return (
+    <p className="text-xs font-display font-semibold mt-2" style={{ color }}>
+      Renown {mount.currentLevel} · {mount.levelsToGo} level{mount.levelsToGo !== 1 ? "s" : ""} to go
+    </p>
+  );
+}
+
+function MountCard({ mount, color, index }: { mount: Mount | AlmostThereMount; color: string; index: number }) {
   const reduced = useReducedMotion();
 
   return (
     <motion.div
       className="rounded-xl border border-border bg-surface px-5 py-4 flex flex-col gap-1 border-l-2"
-      style={{ borderLeftColor: color }}
-      initial={reduced ? false : { opacity: 0, y: 12 }}
-      animate={{ opacity: 1, y: 0 }}
+      style={{ borderLeftColor: color, opacity: mount.owned ? 0.45 : 1 }}
+      initial={reduced ? false : { opacity: mount.owned ? 0.2 : 0, y: 12 }}
+      animate={{ opacity: mount.owned ? 0.45 : 1, y: 0 }}
       transition={{ duration: 0.3, delay: index * 0.04, ease: [0.22, 1, 0.36, 1] }}
       whileHover={reduced ? {} : { y: -2, transition: { duration: 0.15 } }}
     >
-      <p className="font-display font-semibold text-primary">{mount.name}</p>
+      <div className="flex items-center justify-between gap-2">
+        <p className="font-display font-semibold text-primary">{mount.name}</p>
+        {mount.owned && (
+          <span className="text-[10px] font-display font-semibold uppercase tracking-widest px-2 py-0.5 rounded-full shrink-0" style={{ background: "#16a34a33", color: "#4ade80", border: "1px solid #16a34a" }}>
+            ✓ Owned
+          </span>
+        )}
+      </div>
       <p className="text-sm text-muted">{mount.factionName}</p>
       <p className="text-sm text-gold mt-1">{mount.cost}</p>
       {mount.vendorId ? (
@@ -92,7 +113,7 @@ function MountCard({ mount, color, index }: { mount: Mount; color: string; index
       ) : (
         <p className="text-xs text-muted mt-1">{mount.vendorName} · {mount.vendorZone}</p>
       )}
-      {mount.tier !== undefined && <TierBar tier={mount.tier} color={color} />}
+      {"kind" in mount && <Progress mount={mount} color={color} />}
     </motion.div>
   );
 }
@@ -168,7 +189,7 @@ export default function ReputationMountGrid({ available, almostThere }: Props) {
                 <span className="text-xs text-muted">{tabAvailable.length} mount{tabAvailable.length !== 1 ? "s" : ""}</span>
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                {tabAvailable.map((m, i) => (
+                {[...tabAvailable].sort((a, b) => Number(a.owned) - Number(b.owned)).map((m, i) => (
                   <MountCard key={`${m.factionName}-${m.mountId}-${m.name}`} mount={m} color={color} index={i} />
                 ))}
               </div>

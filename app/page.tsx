@@ -1,7 +1,7 @@
 import LookupForm from "@/components/ui/LookupForm";
 import HeroCard from "@/components/ui/HeroCard";
 import ReputationMountGrid from "@/components/ui/ReputationMountGrid";
-import { getCharacter, getCharacterMedia, getReputations } from "@/lib/blizzard";
+import { getCharacter, getCharacterMedia, getReputations, getMountCollection } from "@/lib/blizzard";
 import { crossReferenceMounts } from "@/lib/reputations";
 import dataset from "@/data/reputation-mounts.json";
 import type { FactionEntry } from "@/lib/types";
@@ -20,16 +20,30 @@ export default async function Home({ searchParams }: PageProps) {
 
   if (hasQuery) {
     try {
-      const [summary, media, reps] = await Promise.all([
+      // The mount collection is a nice-to-have: if it fails (privacy settings,
+      // API hiccup), still show results — just without "owned" badges.
+      const mountsPromise = getMountCollection(realm!, character!).catch(() => null);
+
+      const [summary, media, reps, mounts] = await Promise.all([
         getCharacter(realm!, character!),
         getCharacterMedia(realm!, character!),
         getReputations(realm!, character!),
+        mountsPromise,
       ]) as any[];
+
+      const ownedMountIds = new Set<number>(
+        ((mounts?.mounts ?? []) as any[]).map((m: any) => m.mount.id)
+      );
 
       const avatar = media.assets.find((a: any) => a.key === "avatar")?.value
         ?? media.assets.find((a: any) => a.key === "main-raw")?.value;
       characterData = { summary, avatarUrl: avatar };
-      mountResults = crossReferenceMounts(reps.reputations, dataset as unknown as FactionEntry[]);
+      const cp = summary.covenant_progress;
+      mountResults = crossReferenceMounts(reps.reputations, dataset as unknown as FactionEntry[], {
+        ownedMountIds,
+        playerFaction: summary.faction?.type?.toLowerCase(),
+        covenant: cp ? { covenantId: cp.chosen_covenant.id, renownLevel: cp.renown_level } : null,
+      });
     } catch (e: any) {
       error = e.message;
     }
