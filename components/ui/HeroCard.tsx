@@ -9,7 +9,7 @@ interface Props {
   className: string;
   realm: string;
   race: string;
-  avatarUrl: string;
+  avatarUrl: string | null;
 }
 
 export default function HeroCard({ name, className, realm, race, avatarUrl }: Props) {
@@ -32,14 +32,24 @@ export default function HeroCard({ name, className, realm, race, avatarUrl }: Pr
 
       {/* Avatar — Blizzard bust crop, upscaled */}
       <div className="shrink-0 rounded-lg overflow-hidden" style={{ width: 80, height: 80 }}>
-        <Image
-          src={avatarUrl}
-          alt={name}
-          width={100}
-          height={100}
-          className="block w-full h-full"
-
-        />
+        {avatarUrl ? (
+          <Image
+            src={avatarUrl}
+            alt={name}
+            width={100}
+            height={100}
+            className="block w-full h-full"
+          />
+        ) : (
+          // No portrait from the API: show the initial in the class color instead
+          <div
+            className="flex w-full h-full items-center justify-center font-display text-3xl font-semibold"
+            style={{ background: `${classColor}22`, color: classColor }}
+            aria-hidden="true"
+          >
+            {name.charAt(0)}
+          </div>
+        )}
       </div>
 
       {/* Info */}

@@ -2,8 +2,7 @@
 
 import { useState, FormEvent } from "react";
 import { useRouter } from "next/navigation";
-
-const REGIONS = ["us", "eu", "kr", "tw"];
+import { REGIONS } from "@/lib/regions";
 
 interface Props {
   defaultValues?: { character?: string; realm?: string; region?: string };
@@ -18,9 +17,10 @@ export default function LookupForm({ defaultValues }: Props) {
   function handleSubmit(e: FormEvent) {
     e.preventDefault();
     if (!character.trim() || !realm.trim()) return;
-    router.push(
-      `/?character=${character.trim().toLowerCase()}&realm=${realm.trim().toLowerCase()}&region=${region}`
-    );
+    // URLSearchParams encodes spaces, apostrophes and accents ("Mal'Ganis", "Ëlf") safely.
+    // The realm is sent as typed; the server matches it against Blizzard's realm list.
+    const query = new URLSearchParams({ character: character.trim(), realm: realm.trim(), region });
+    router.push(`/?${query}`);
   }
 
   return (

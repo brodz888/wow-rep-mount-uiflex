@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getCharacter, getCharacterMedia } from "@/lib/blizzard";
+import { getCharacter, getCharacterMedia, DEFAULT_REGION, type CharacterRef } from "@/lib/blizzard";
+import { parseRegion } from "@/lib/regions";
 
 export async function GET(req: NextRequest) {
   const { searchParams } = req.nextUrl;
@@ -9,10 +10,13 @@ export async function GET(req: NextRequest) {
   if (!realm || !character)
     return NextResponse.json({ error: "Missing realm or character" }, { status: 400 });
 
+  // Expects a realm slug (e.g. "area-52"); the page resolves typed realm names itself.
+  const ref: CharacterRef = { region: parseRegion(searchParams.get("region"), DEFAULT_REGION), realmSlug: realm, name: character };
+
   try {
     const [summary, media] = await Promise.all([
-      getCharacter(realm, character),
-      getCharacterMedia(realm, character),
+      getCharacter(ref),
+      getCharacterMedia(ref),
     ]);
     return NextResponse.json({ summary, media });
   } catch (e: any) {

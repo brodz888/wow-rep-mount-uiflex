@@ -2,23 +2,8 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
-import type { AlmostThereProgress } from "@/lib/types";
-
-interface Mount {
-  mountId: number | null;
-  itemId?: number;
-  name: string;
-  factionName: string;
-  expansion: string;
-  cost: string;
-  owned: boolean;
-  faction?: "alliance" | "horde";
-  vendorName: string | null;
-  vendorId: number | null;
-  vendorZone: string | null;
-}
-
-type AlmostThereMount = Mount & AlmostThereProgress;
+// Same types the cross-reference logic produces, so the two can't drift apart.
+import type { AlmostThereMount, EnrichedMount as Mount } from "@/lib/types";
 
 interface Props {
   available: Mount[];
