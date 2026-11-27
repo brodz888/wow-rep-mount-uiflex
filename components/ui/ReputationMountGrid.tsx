@@ -6,6 +6,7 @@ import type { AlmostThereProgress } from "@/lib/types";
 
 interface Mount {
   mountId: number | null;
+  itemId?: number;
   name: string;
   factionName: string;
   expansion: string;
@@ -54,14 +55,20 @@ const EXPANSION_COLORS: Record<string, string> = {
   "Other":                  "#C8AA6E",
 };
 
-function TierBar({ tier, tierCount, color }: { tier: number; tierCount: number; color: string }) {
+/** One segment per rank/level; `filled` segments are ones already reached. */
+function TierBar({ filled, total, label, color }: { filled: number; total: number; label: string; color: string }) {
   return (
-    <div className="flex gap-0.5 mt-2">
-      {Array.from({ length: tierCount }).map((_, i) => (
+    <div
+      role="img"
+      aria-label={label}
+      title={label}
+      className="flex gap-0.5 mt-2"
+    >
+      {Array.from({ length: total }).map((_, i) => (
         <div
           key={i}
           className="h-1 flex-1 rounded-full"
-          style={{ background: i < tier ? color : "var(--surface-border)" }}
+          style={{ background: i < filled ? color : "var(--surface-border)" }}
         />
       ))}
     </div>
@@ -70,11 +77,13 @@ function TierBar({ tier, tierCount, color }: { tier: number; tierCount: number; 
 
 function Progress({ mount, color }: { mount: AlmostThereMount; color: string }) {
   if (mount.kind === "standing") {
-    return <TierBar tier={mount.tier} tierCount={mount.tierCount} color={color} />;
+    const reached = mount.tier + 1; // tier is a 0-based index into the ladder
+    return <TierBar filled={reached} total={mount.tierCount} label={`Rank ${reached} of ${mount.tierCount}`} color={color} />;
   }
+  const required = mount.currentLevel + mount.levelsToGo;
   return (
     <p className="text-xs font-display font-semibold mt-2" style={{ color }}>
-      Renown {mount.currentLevel} · {mount.levelsToGo} level{mount.levelsToGo !== 1 ? "s" : ""} to go
+      Requires Renown {required} · Currently at {mount.currentLevel}
     </p>
   );
 }
@@ -92,7 +101,18 @@ function MountCard({ mount, color, index }: { mount: Mount | AlmostThereMount; c
       whileHover={reduced ? {} : { y: -2, transition: { duration: 0.15 } }}
     >
       <div className="flex items-center justify-between gap-2">
-        <p className="font-display font-semibold text-primary">{mount.name}</p>
+        {mount.itemId ? (
+          <a
+            href={`https://www.wowhead.com/item=${mount.itemId}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-display font-semibold text-primary hover:text-gold transition-colors"
+          >
+            {mount.name}
+          </a>
+        ) : (
+          <p className="font-display font-semibold text-primary">{mount.name}</p>
+        )}
         {mount.owned && (
           <span className="text-[10px] font-display font-semibold uppercase tracking-widest px-2 py-0.5 rounded-full shrink-0" style={{ background: "#16a34a33", color: "#4ade80", border: "1px solid #16a34a" }}>
             ✓ Owned

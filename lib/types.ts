@@ -1,5 +1,8 @@
 export interface Mount {
+  /** Blizzard mount ID — matches the character's mount collection. */
   mountId: number | null;
+  /** Wowhead/in-game item ID that teaches the mount — used for the Wowhead link. */
+  itemId?: number;
   name: string;
   cost?: string;
   faction?: "alliance" | "horde";

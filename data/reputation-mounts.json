@@ -6,6 +6,7 @@
     "mounts": [
       {
         "mountId": 2614,
+        "itemId": 246734,
         "name": "Fierce Grimlynx",
         "requiredRenown": 16,
         "vendorName": "Naynar",
@@ -15,6 +16,7 @@
       },
       {
         "mountId": 2710,
+        "itemId": 252014,
         "name": "Cerulean Sporeglider",
         "requiredRenown": 19,
         "vendorName": "Naynar",
@@ -24,6 +26,7 @@
       },
       {
         "mountId": 2913,
+        "itemId": 263580,
         "name": "Vivid Chloroceros",
         "requiredRenown": 2,
         "vendorName": "Mothkeeper Wew'tam",
@@ -33,6 +36,7 @@
       },
       {
         "mountId": 2161,
+        "itemId": 222988,
         "name": "Elder Glowmite",
         "requiredRenown": 2,
         "vendorName": "Mothkeeper Wew'tam",
@@ -49,6 +53,7 @@
     "mounts": [
       {
         "mountId": 2776,
+        "itemId": 257219,
         "name": "Amani Blessed Bear",
         "requiredRenown": 17,
         "vendorName": "Magovu",
@@ -58,6 +63,7 @@
       },
       {
         "mountId": 2694,
+        "itemId": 250889,
         "name": "Amani Windcaller",
         "requiredRenown": 19,
         "vendorName": "Magovu",
@@ -74,6 +80,7 @@
     "mounts": [
       {
         "mountId": 2761,
+        "itemId": 257154,
         "name": "Crimson Silvermoon Hawkstrider",
         "requiredRenown": 17,
         "vendorName": "Caeris Fairdawn",
@@ -83,6 +90,7 @@
       },
       {
         "mountId": 2753,
+        "itemId": 257142,
         "name": "Fiery Dragonhawk",
         "requiredRenown": 19,
         "vendorName": "Caeris Fairdawn",
@@ -99,6 +107,7 @@
     "mounts": [
       {
         "mountId": 2792,
+        "itemId": 257448,
         "name": "Frenzied Shredclaw",
         "requiredStanding": "exalted",
         "vendorName": "Thraxadar",
@@ -108,6 +117,7 @@
       },
       {
         "mountId": 2791,
+        "itemId": 257447,
         "name": "Prowling Shredclaw",
         "requiredStanding": "exalted",
         "vendorName": "Thraxadar",
@@ -124,6 +134,7 @@
     "mounts": [
       {
         "mountId": 2789,
+        "itemId": 257445,
         "name": "Ravenous Shredclaw",
         "requiredRenown": 17,
         "vendorName": "Void Researcher Anomander",
@@ -133,6 +144,7 @@
       },
       {
         "mountId": 2828,
+        "itemId": 260696,
         "name": "Voidbound Stormray",
         "requiredRenown": 19,
         "vendorName": "Void Researcher Anomander",
@@ -149,6 +161,7 @@
     "mounts": [
       {
         "mountId": 3060,
+        "itemId": 276802,
         "name": "Indigo Coiled Horror",
         "requiredRenown": 17,
         "vendorName": "Jan'sari the Watchful",
@@ -158,6 +171,7 @@
       },
       {
         "mountId": 3054,
+        "itemId": 276551,
         "name": "Violet-Backed Skyfang",
         "requiredRenown": 19,
         "vendorName": "Jan'sari the Watchful",
@@ -174,6 +188,7 @@
     "mounts": [
       {
         "mountId": 2935,
+        "itemId": 268578,
         "name": "Void-Touched Hawkstrider",
         "requiredRenown": 8,
         "vendorName": "Sergeant Vornin",
@@ -190,6 +205,7 @@
     "mounts": [
       {
         "mountId": 2279,
+        "itemId": 229945,
         "name": "Thunderdrum Misfire",
         "requiredRenown": 8,
         "vendorName": "Ando the Gat",
@@ -199,6 +215,7 @@
       },
       {
         "mountId": 2276,
+        "itemId": 229924,
         "name": "Darkfuse Chompactor",
         "requiredRenown": 17,
         "vendorName": "Ando the Gat",
@@ -208,6 +225,7 @@
       },
       {
         "mountId": 2278,
+        "itemId": 229940,
         "name": "Flarendo the Furious",
         "requiredRenown": 20,
         "vendorName": "Ando the Gat",
@@ -224,6 +242,7 @@
     "mounts": [
       {
         "mountId": 2556,
+        "itemId": 242729,
         "name": "Ruby Void Creeper",
         "requiredRenown": 15,
         "vendorName": "Om'sirik",
@@ -233,6 +252,7 @@
       },
       {
         "mountId": 2510,
+        "itemId": 237484,
         "name": "Terror of the Wastes",
         "requiredRenown": 19,
         "vendorName": "Om'sirik",
@@ -249,6 +269,7 @@
     "mounts": [
       {
         "mountId": 2213,
+        "itemId": 223571,
         "name": "Shale Ramolith",
         "requiredRenown": 18,
         "vendorName": "Auditor Balwurz",
@@ -258,6 +279,7 @@
       },
       {
         "mountId": 2148,
+        "itemId": 221753,
         "name": "Smoldering Cinderbee",
         "requiredRenown": 23,
         "vendorName": "Auditor Balwurz",
@@ -274,6 +296,7 @@
     "mounts": [
       {
         "mountId": 2193,
+        "itemId": 223317,
         "name": "Vermillion Imperial Lynx",
         "requiredRenown": 21,
         "vendorName": "Auralia Steelstrike",
@@ -283,6 +306,7 @@
       },
       {
         "mountId": 2191,
+        "itemId": 223314,
         "name": "Shackled Shadow",
         "requiredRenown": 23,
         "vendorName": "Auralia Steelstrike",
@@ -299,6 +323,7 @@
     "mounts": [
       {
         "mountId": 2184,
+        "itemId": 223274,
         "name": "Ferocious Jawcrawler",
         "requiredRenown": 22,
         "vendorName": "Lady Vinazian",
@@ -308,6 +333,7 @@
       },
       {
         "mountId": 2177,
+        "itemId": 223264,
         "name": "Aquamarine Swarmite",
         "requiredRenown": 23,
         "vendorName": "Lady Vinazian",
@@ -324,6 +350,7 @@
     "mounts": [
       {
         "mountId": 2209,
+        "itemId": 223505,
         "name": "Crimson Mudnose",
         "requiredRenown": 19,
         "vendorName": "Waxmonger Squick",
@@ -333,6 +360,7 @@
       },
       {
         "mountId": 2162,
+        "itemId": 222989,
         "name": "Cyan Glowmite",
         "requiredRenown": 23,
         "vendorName": "Waxmonger Squick",
@@ -349,6 +377,7 @@
     "mounts": [
       {
         "mountId": 2277,
+        "itemId": 229936,
         "name": "Violet Armored Growler",
         "requiredRenown": 15,
         "vendorName": "Smaks Topskimmer",
@@ -358,6 +387,7 @@
       },
       {
         "mountId": 2280,
+        "itemId": 229944,
         "name": "The Topskimmer Special",
         "requiredRenown": 19,
         "vendorName": "Smaks Topskimmer",
@@ -374,6 +404,7 @@
     "mounts": [
       {
         "mountId": 2272,
+        "itemId": 229935,
         "name": "Crimson Armored Growler",
         "requiredStanding": "exalted",
         "vendorName": "Rocco Razzboom",
@@ -401,6 +432,7 @@
     "mounts": [
       {
         "mountId": 2171,
+        "itemId": 223276,
         "name": "Widow's Undercrawler",
         "requiredStanding": "conspirator",
         "vendorName": "Bobbin",
@@ -428,6 +460,7 @@
     "mounts": [
       {
         "mountId": 2174,
+        "itemId": 223279,
         "name": "Royal Court Undercrawler",
         "requiredStanding": "conspirator",
         "vendorName": "Tulumun",
@@ -444,6 +477,7 @@
     "mounts": [
       {
         "mountId": 2294,
+        "itemId": 229956,
         "name": "Mean Green Flying Machine",
         "requiredStanding": "exalted",
         "vendorName": "Lab Assistant Laszly",
@@ -471,6 +505,7 @@
     "mounts": [
       {
         "mountId": 2172,
+        "itemId": 223278,
         "name": "Heritage Undercrawler",
         "requiredStanding": "conspirator",
         "vendorName": "Anub'okki",
@@ -487,6 +522,7 @@
     "mounts": [
       {
         "mountId": 2286,
+        "itemId": 229948,
         "name": "Blackwater Shredder Deluxe Mk 2",
         "requiredStanding": "exalted",
         "vendorName": "Boatswain Hardee",
@@ -503,6 +539,7 @@
     "mounts": [
       {
         "mountId": 2519,
+        "itemId": 238829,
         "name": "Radiant Imperial Lynx",
         "requiredRenown": 9,
         "vendorName": "Lars Bronsmaelt",
@@ -519,6 +556,7 @@
     "mounts": [
       {
         "mountId": 2287,
+        "itemId": 229950,
         "name": "Darkfuse Demolisher",
         "requiredStanding": "revered",
         "vendorName": "Sitch Lowdown",
@@ -535,6 +573,7 @@
     "mounts": [
       {
         "mountId": 2284,
+        "itemId": 229946,
         "name": "Ochre Delivery Rocket",
         "requiredStanding": "exalted",
         "vendorName": "Shredz the Scrapper",
@@ -551,6 +590,7 @@
     "mounts": [
       {
         "mountId": 1616,
+        "itemId": 192762,
         "name": "Azure Skitterfly",
         "requiredRenown": 25,
         "vendorName": "Cataloger Jakes",
@@ -560,6 +600,7 @@
       },
       {
         "mountId": 1615,
+        "itemId": 192761,
         "name": "Tamed Skitterfly",
         "requiredRenown": 25,
         "vendorName": "Cataloger Jakes",
@@ -576,6 +617,7 @@
     "mounts": [
       {
         "mountId": 1811,
+        "itemId": 209951,
         "name": "Lunar Dreamstag",
         "requiredRenown": 17,
         "vendorName": "Moon Priestess Lasara",
@@ -585,6 +627,7 @@
       },
       {
         "mountId": 1809,
+        "itemId": 209949,
         "name": "Suntouched Dreamstag",
         "requiredRenown": 17,
         "vendorName": "Moon Priestess Lasara",
@@ -594,6 +637,7 @@
       },
       {
         "mountId": 1835,
+        "itemId": 210775,
         "name": "Snowfluff Dreamtalon",
         "requiredRenown": 18,
         "vendorName": "Sylvia Whisperbloom",
@@ -603,6 +647,7 @@
       },
       {
         "mountId": 1833,
+        "itemId": 210769,
         "name": "Springtide Dreamtalon",
         "requiredRenown": 18,
         "vendorName": "Sylvia Whisperbloom",
@@ -612,6 +657,7 @@
       },
       {
         "mountId": 1816,
+        "itemId": 210058,
         "name": "Evening Sun Dreamsaber",
         "requiredRenown": 18,
         "vendorName": "Sylvia Whisperbloom",
@@ -621,6 +667,7 @@
       },
       {
         "mountId": 1817,
+        "itemId": 210057,
         "name": "Morning Flourish Dreamsaber",
         "requiredRenown": 18,
         "vendorName": "Sylvia Whisperbloom",
@@ -630,6 +677,7 @@
       },
       {
         "mountId": 1808,
+        "itemId": 209947,
         "name": "Blossoming Dreamstag",
         "requiredRenown": 18,
         "vendorName": "Sylvia Whisperbloom",
@@ -639,6 +687,7 @@
       },
       {
         "mountId": 1810,
+        "itemId": 209950,
         "name": "Rekindled Dreamstag",
         "requiredRenown": 18,
         "vendorName": "Sylvia Whisperbloom",
@@ -655,6 +704,7 @@
     "mounts": [
       {
         "mountId": 1657,
+        "itemId": 198872,
         "name": "Brown Scouting Ottuk",
         "requiredRenown": 25,
         "vendorName": "Murik",
@@ -664,6 +714,7 @@
       },
       {
         "mountId": 1659,
+        "itemId": 200118,
         "name": "Yellow Scouting Ottuk",
         "requiredRenown": 25,
         "vendorName": "Murik",
@@ -673,6 +724,7 @@
       },
       {
         "mountId": 1653,
+        "itemId": 201426,
         "name": "Brown War Ottuk",
         "requiredRenown": 30,
         "vendorName": "Murik",
@@ -682,6 +734,7 @@
       },
       {
         "mountId": 1655,
+        "itemId": 201425,
         "name": "Yellow War Ottuk",
         "requiredRenown": 30,
         "vendorName": "Murik",
@@ -698,6 +751,7 @@
     "mounts": [
       {
         "mountId": 1736,
+        "itemId": 205209,
         "name": "Boulder Hauler",
         "vendorName": "Ponzo",
         "vendorId": 204693,
@@ -706,6 +760,7 @@
       },
       {
         "mountId": 1738,
+        "itemId": 205207,
         "name": "Morsel Sniffer",
         "requiredRenown": 18,
         "vendorName": "Harlowe Marl",
@@ -722,6 +777,7 @@
     "mounts": [
       {
         "mountId": 1421,
+        "itemId": 183518,
         "name": "Court Sinrunner",
         "cost": "24,000g",
         "vendorName": "Mistress Mihaela",
@@ -737,6 +793,7 @@
     "mounts": [
       {
         "mountId": 1505,
+        "itemId": 186647,
         "name": "Amber Shardhide",
         "cost": "5,000 Stygia",
         "requiredStanding": "revered",
@@ -753,6 +810,7 @@
     "mounts": [
       {
         "mountId": 1425,
+        "itemId": 183740,
         "name": "Gilded Prowler",
         "cost": "50,000g",
         "vendorName": "Adjutant Nikos",
@@ -768,6 +826,7 @@
     "mounts": [
       {
         "mountId": 1382,
+        "itemId": 182954,
         "name": "Inquisition Gargon",
         "cost": "2,000 Sinstone Fragments",
         "vendorName": "Archivist Janeera",
@@ -783,6 +842,7 @@
     "mounts": [
       {
         "mountId": 1375,
+        "itemId": 182082,
         "name": "Lurid Bloodtusk",
         "cost": "30,000g",
         "vendorName": "Nalcorn Talsen",
@@ -798,6 +858,7 @@
     "mounts": [
       {
         "mountId": 1361,
+        "itemId": 180729,
         "name": "Duskflutter Ardenmoth",
         "cost": "30,000g",
         "vendorName": "Aithlyn",
@@ -813,6 +874,7 @@
     "mounts": [
       {
         "mountId": 1522,
+        "itemId": 187629,
         "name": "Heartlight Vombata",
         "cost": "5,000 Reservoir Anima",
         "vendorName": "Vilo",
@@ -821,6 +883,7 @@
       },
       {
         "mountId": 1529,
+        "itemId": 187640,
         "name": "Anointed Protostag",
         "cost": "5,000 Reservoir Anima",
         "requiredStanding": "revered",
@@ -844,6 +907,7 @@
     "mounts": [
       {
         "mountId": 1420,
+        "itemId": 183053,
         "name": "Umbral Scythehorn",
         "cost": "5,000 Reservoir Anima + 5 Grateful Offerings",
         "requiredStanding": "revered",
@@ -853,6 +917,7 @@
       },
       {
         "mountId": 1356,
+        "itemId": 180415,
         "name": "Winterborn Runestag",
         "cost": "5,000 Reservoir Anima + 5 Grateful Offerings",
         "requiredStanding": "revered",
@@ -869,6 +934,7 @@
     "mounts": [
       {
         "mountId": 1429,
+        "itemId": 183801,
         "name": "Vibrant Flutterwing",
         "cost": "5,000 Reservoir Anima",
         "requiredStanding": "revered",
@@ -878,6 +944,7 @@
       },
       {
         "mountId": 1359,
+        "itemId": 180724,
         "name": "Enchanted Winterborn Runestag",
         "cost": "5,000 Reservoir Anima",
         "requiredStanding": "revered",
@@ -902,6 +969,7 @@
     "mounts": [
       {
         "mountId": 1450,
+        "itemId": 186648,
         "name": "Soaring Razorwing",
         "cost": "2,500 Cataloged Research",
         "requiredStanding": "tier 6",
@@ -919,6 +987,7 @@
     "mounts": [
       {
         "mountId": 1398,
+        "itemId": 180764,
         "name": "Phalynx of Purity",
         "requiredRenown": 23,
         "vendorName": "Adjutant Galos",
@@ -928,6 +997,7 @@
       },
       {
         "mountId": 1399,
+        "itemId": 180765,
         "name": "Eternal Phalynx of Purity",
         "requiredRenown": 39,
         "vendorName": "Adjutant Galos",
@@ -937,6 +1007,7 @@
       },
       {
         "mountId": 1494,
+        "itemId": 186485,
         "name": "Ascendant's Aquilon",
         "requiredRenown": 70,
         "vendorName": "Adjutant Galos",
@@ -954,6 +1025,7 @@
     "mounts": [
       {
         "mountId": 1365,
+        "itemId": 182076,
         "name": "Plaguerot Tauralus",
         "requiredRenown": 23,
         "vendorName": "Su Zettai",
@@ -963,6 +1035,7 @@
       },
       {
         "mountId": 1369,
+        "itemId": 181821,
         "name": "Armored Plaguerot Tauralus",
         "requiredRenown": 39,
         "vendorName": "Su Zettai",
@@ -972,6 +1045,7 @@
       },
       {
         "mountId": 1496,
+        "itemId": 186488,
         "name": "Regal Corpsefly",
         "requiredRenown": 70,
         "vendorName": "Su Zettai",
@@ -989,6 +1063,7 @@
     "mounts": [
       {
         "mountId": 1354,
+        "itemId": 180413,
         "name": "Shadeleaf Runestag",
         "requiredRenown": 23,
         "vendorName": "Elwyn",
@@ -998,6 +1073,7 @@
       },
       {
         "mountId": 1357,
+        "itemId": 180722,
         "name": "Enchanted Shadeleaf Runestag",
         "requiredRenown": 39,
         "vendorName": "Elwyn",
@@ -1007,6 +1083,7 @@
       },
       {
         "mountId": 1485,
+        "itemId": 186494,
         "name": "Autumnal Wilderling",
         "requiredRenown": 70,
         "vendorName": "Elwyn",
@@ -1024,6 +1101,7 @@
     "mounts": [
       {
         "mountId": 1384,
+        "itemId": 183715,
         "name": "Sinfall Gargon",
         "requiredRenown": 23,
         "vendorName": "Chachi the Artiste",
@@ -1033,6 +1111,7 @@
       },
       {
         "mountId": 1388,
+        "itemId": 182332,
         "name": "Gravestone Battle Gargon",
         "requiredRenown": 39,
         "vendorName": "Chachi the Artiste",
@@ -1042,6 +1121,7 @@
       },
       {
         "mountId": 1489,
+        "itemId": 186478,
         "name": "Obsidian Gravewing",
         "requiredRenown": 70,
         "vendorName": "Chachi the Artiste",
@@ -1059,6 +1139,7 @@
     "mounts": [
       {
         "mountId": 1062,
+        "itemId": 161908,
         "name": "Dusky Waycrest Gryphon",
         "cost": "90,000g",
         "vendorName": "Quartermaster Alcorn",
@@ -1067,6 +1148,7 @@
       },
       {
         "mountId": 1016,
+        "itemId": 161910,
         "name": "Smoky Charger",
         "cost": "12,500g",
         "vendorName": "Quartermaster Alcorn",
@@ -1083,6 +1165,7 @@
     "mounts": [
       {
         "mountId": 1064,
+        "itemId": 161879,
         "name": "Proudmoore Sea Scout",
         "cost": "90,000g",
         "vendorName": "Provisioner Fray",
@@ -1091,6 +1174,7 @@
       },
       {
         "mountId": 1010,
+        "itemId": 161911,
         "name": "Admiralty Stallion",
         "cost": "12,500g",
         "vendorName": "Provisioner Fray",
@@ -1107,6 +1191,7 @@
     "mounts": [
       {
         "mountId": 1063,
+        "itemId": 161909,
         "name": "Stormsong Coastwatcher",
         "cost": "90,000g",
         "vendorName": "Sister Lilyana",
@@ -1115,6 +1200,7 @@
       },
       {
         "mountId": 1015,
+        "itemId": 161912,
         "name": "Dapple Gray",
         "cost": "12,500g",
         "vendorName": "Sister Lilyana",
@@ -1131,6 +1217,7 @@
     "mounts": [
       {
         "mountId": 1061,
+        "itemId": 161774,
         "name": "Expedition Bloodswarmer",
         "cost": "12,500g",
         "vendorName": "Provisioner Lija",
@@ -1139,6 +1226,7 @@
       },
       {
         "mountId": 1059,
+        "itemId": 161666,
         "name": "Captured Swampstalker",
         "cost": "90,000g",
         "vendorName": "Provisioner Lija",
@@ -1155,6 +1243,7 @@
     "mounts": [
       {
         "mountId": 926,
+        "itemId": 161773,
         "name": "Alabaster Hyena",
         "cost": "12,500g",
         "vendorName": "Hoarder Jena",
@@ -1163,6 +1252,7 @@
       },
       {
         "mountId": 1060,
+        "itemId": 161667,
         "name": "Voldunai Dunescraper",
         "cost": "90,000g",
         "vendorName": "Hoarder Jena",
@@ -1179,6 +1269,7 @@
     "mounts": [
       {
         "mountId": 1058,
+        "itemId": 161665,
         "name": "Cobalt Pterrordax",
         "cost": "12,500g",
         "vendorName": "Natal'hakata",
@@ -1187,6 +1278,7 @@
       },
       {
         "mountId": 958,
+        "itemId": 161664,
         "name": "Spectral Pterrorwing",
         "cost": "72,000g",
         "vendorName": "Natal'hakata",
@@ -1202,6 +1294,7 @@
     "mounts": [
       {
         "mountId": 1254,
+        "itemId": 168829,
         "name": "Rustbolt Resistor",
         "cost": "524,288g",
         "vendorName": "Stolen Royal Vendorbot",
@@ -1218,6 +1311,7 @@
     "mounts": [
       {
         "mountId": 1230,
+        "itemId": 167170,
         "name": "Unshackled Waveray",
         "cost": "250 Prismatic Manapearls",
         "vendorName": "Finder Pruc",
@@ -1233,6 +1327,7 @@
     "mounts": [
       {
         "mountId": 1318,
+        "itemId": 174754,
         "name": "Wastewander Skyterror",
         "cost": "22,800g",
         "vendorName": "Provisioner Qorra",
@@ -1249,6 +1344,7 @@
     "mounts": [
       {
         "mountId": 1231,
+        "itemId": 167167,
         "name": "Ankoan Waveray",
         "cost": "250 Prismatic Manapearls",
         "vendorName": "Artisan Okata",
@@ -1264,6 +1360,7 @@
     "mounts": [
       {
         "mountId": 964,
+        "itemId": 152794,
         "name": "Amethyst Ruinstrider",
         "cost": "8,000g",
         "vendorName": "Toraan the Revered",
@@ -1272,6 +1369,7 @@
       },
       {
         "mountId": 966,
+        "itemId": 152795,
         "name": "Beryl Ruinstrider",
         "cost": "8,000g",
         "vendorName": "Toraan the Revered",
@@ -1280,6 +1378,7 @@
       },
       {
         "mountId": 965,
+        "itemId": 152797,
         "name": "Cerulean Ruinstrider",
         "cost": "8,000g",
         "vendorName": "Toraan the Revered",
@@ -1288,6 +1387,7 @@
       },
       {
         "mountId": 968,
+        "itemId": 152793,
         "name": "Russet Ruinstrider",
         "cost": "8,000g",
         "vendorName": "Toraan the Revered",
@@ -1296,6 +1396,7 @@
       },
       {
         "mountId": 939,
+        "itemId": 152791,
         "name": "Sable Ruinstrider",
         "cost": "8,000g",
         "vendorName": "Toraan the Revered",
@@ -1304,6 +1405,7 @@
       },
       {
         "mountId": 967,
+        "itemId": 152796,
         "name": "Umber Ruinstrider",
         "cost": "8,000g",
         "vendorName": "Toraan the Revered",
@@ -1319,6 +1421,7 @@
     "mounts": [
       {
         "mountId": 932,
+        "itemId": 152788,
         "name": "Lightforged Warframe",
         "cost": "500,000g",
         "vendorName": "Vindicator Jaelaana",
@@ -1342,6 +1445,7 @@
     "mounts": [
       {
         "mountId": 800,
+        "itemId": 138811,
         "name": "Brinedeep Bottom-Feeder",
         "cost": "100 Drowned Mana",
         "requiredStanding": "best friend",
@@ -1358,6 +1462,7 @@
     "mounts": [
       {
         "mountId": 765,
+        "itemId": 128480,
         "name": "Bristling Hellboar",
         "cost": "5,000 Blackfang Claws",
         "vendorName": "Z'tenga the Walker",
@@ -1366,6 +1471,7 @@
       },
       {
         "mountId": 624,
+        "itemId": 116671,
         "name": "Wild Goretusk",
         "cost": "1,000 Blackfang Claws",
         "requiredStanding": "honored",
@@ -1382,6 +1488,7 @@
     "mounts": [
       {
         "mountId": 635,
+        "itemId": 116772,
         "name": "Shadowmane Charger",
         "cost": "5,000g + 5,000 Apexis Crystals",
         "vendorName": "Ravenspeaker Skeeg",
@@ -1398,6 +1505,7 @@
     "mounts": [
       {
         "mountId": 617,
+        "itemId": 116664,
         "name": "Dusty Rockhide",
         "cost": "4,000g + 5,000 Apexis Crystals",
         "vendorName": "Vindicator Nuurem",
@@ -1414,6 +1522,7 @@
     "mounts": [
       {
         "mountId": 648,
+        "itemId": 116785,
         "name": "Swift Frostwolf",
         "cost": "4,250g + 5,000 Apexis Crystals",
         "vendorName": "Beska Redtusk",
@@ -1430,6 +1539,7 @@
     "mounts": [
       {
         "mountId": 768,
+        "itemId": 128527,
         "name": "Deathtusk Felboar",
         "cost": "2,500g",
         "vendorName": "Vindicator Krethos",
@@ -1446,6 +1556,7 @@
     "mounts": [
       {
         "mountId": 768,
+        "itemId": 128526,
         "name": "Deathtusk Felboar",
         "cost": "2,375g",
         "vendorName": "Shadow Hunter Denjai",
@@ -1462,6 +1573,7 @@
     "mounts": [
       {
         "mountId": 645,
+        "itemId": 116782,
         "name": "Ironside Warwolf",
         "cost": "5,000g + 5,000 Apexis Crystals",
         "vendorName": "Kil'rip",
@@ -1477,6 +1589,7 @@
     "mounts": [
       {
         "mountId": 753,
+        "itemId": 123974,
         "name": "Corrupted Dreadwing",
         "cost": "150,000g",
         "requiredStanding": "friendly",
@@ -1494,6 +1607,7 @@
     "mounts": [
       {
         "mountId": 618,
+        "itemId": 116665,
         "name": "Armored Irontusk",
         "cost": "5,000g + 5,000 Apexis Crystals",
         "vendorName": "Maaria",
@@ -1509,6 +1623,7 @@
     "mounts": [
       {
         "mountId": 625,
+        "itemId": 116672,
         "name": "Domesticated Razorback",
         "cost": "5,000g + 5,000 Apexis Crystals",
         "vendorName": "Mimi Wizzlebub",
@@ -1524,6 +1639,7 @@
     "mounts": [
       {
         "mountId": 464,
+        "itemId": 85430,
         "name": "Azure Cloud Serpent",
         "cost": "2,400g",
         "vendorName": "San Redscale",
@@ -1532,6 +1648,7 @@
       },
       {
         "mountId": 465,
+        "itemId": 85429,
         "name": "Golden Cloud Serpent",
         "cost": "2,400g",
         "vendorName": "San Redscale",
@@ -1540,6 +1657,7 @@
       },
       {
         "mountId": 448,
+        "itemId": 79802,
         "name": "Jade Cloud Serpent",
         "cost": "2,400g",
         "vendorName": "San Redscale",
@@ -1555,6 +1673,7 @@
     "mounts": [
       {
         "mountId": 479,
+        "itemId": 87781,
         "name": "Azure Riding Crane",
         "cost": "400g",
         "vendorName": "Jaluu the Generous",
@@ -1563,6 +1682,7 @@
       },
       {
         "mountId": 480,
+        "itemId": 87782,
         "name": "Golden Riding Crane",
         "cost": "2,000g",
         "vendorName": "Jaluu the Generous",
@@ -1571,6 +1691,7 @@
       },
       {
         "mountId": 481,
+        "itemId": 87783,
         "name": "Regal Riding Crane",
         "cost": "1,500g",
         "vendorName": "Jaluu the Generous",
@@ -1586,6 +1707,7 @@
     "mounts": [
       {
         "mountId": 506,
+        "itemId": 89307,
         "name": "Blue Shado-Pan Riding Tiger",
         "cost": "500g",
         "vendorName": "Rushi the Fox",
@@ -1594,6 +1716,7 @@
       },
       {
         "mountId": 505,
+        "itemId": 89305,
         "name": "Green Shado-Pan Riding Tiger",
         "cost": "1,500g",
         "vendorName": "Rushi the Fox",
@@ -1602,6 +1725,7 @@
       },
       {
         "mountId": 507,
+        "itemId": 89306,
         "name": "Red Shado-Pan Riding Tiger",
         "cost": "2,500g",
         "vendorName": "Rushi the Fox",
@@ -1617,6 +1741,7 @@
     "mounts": [
       {
         "mountId": 511,
+        "itemId": 89391,
         "name": "Black Riding Goat",
         "cost": "1,275g",
         "vendorName": "Gina Mudclaw",
@@ -1625,6 +1750,7 @@
       },
       {
         "mountId": 508,
+        "itemId": 89362,
         "name": "Brown Riding Goat",
         "cost": "425g",
         "vendorName": "Gina Mudclaw",
@@ -1633,6 +1759,7 @@
       },
       {
         "mountId": 510,
+        "itemId": 89390,
         "name": "White Riding Goat",
         "cost": "2,762g 50s",
         "vendorName": "Gina Mudclaw",
@@ -1649,6 +1776,7 @@
     "mounts": [
       {
         "mountId": 527,
+        "itemId": 93169,
         "name": "Grand Armored Wyvern",
         "cost": "2,000g",
         "vendorName": "Tuskripper Grukna",
@@ -1664,6 +1792,7 @@
     "mounts": [
       {
         "mountId": 475,
+        "itemId": 87774,
         "name": "Heavenly Golden Cloud Serpent",
         "cost": "10,000 Timeless Coins",
         "requiredStanding": "exalted",
@@ -1681,6 +1810,7 @@
     "mounts": [
       {
         "mountId": 545,
+        "itemId": 95564,
         "name": "Golden Primal Direhorn",
         "cost": "3,000g",
         "vendorName": "Hiren Loresong",
@@ -1704,6 +1834,7 @@
     "mounts": [
       {
         "mountId": 488,
+        "itemId": 87791,
         "name": "Crimson Water Strider",
         "cost": "500g",
         "requiredStanding": "best friend",
@@ -1721,6 +1852,7 @@
     "mounts": [
       {
         "mountId": 526,
+        "itemId": 93168,
         "name": "Grand Armored Gryphon",
         "cost": "2,000g",
         "vendorName": "Agent Malley",
@@ -1737,6 +1869,7 @@
     "mounts": [
       {
         "mountId": 546,
+        "itemId": 95565,
         "name": "Crimson Primal Direhorn",
         "cost": "3,000g",
         "vendorName": "Vasarin Redmorn",
@@ -1752,6 +1885,7 @@
     "mounts": [
       {
         "mountId": 449,
+        "itemId": 81354,
         "name": "Azure Water Strider",
         "cost": "900g",
         "vendorName": "Nat Pagle",
@@ -1767,6 +1901,7 @@
     "mounts": [
       {
         "mountId": 504,
+        "itemId": 89304,
         "name": "Thundering August Cloud Serpent",
         "cost": "10,000g",
         "vendorName": "Sage Whiteheart",
@@ -1782,6 +1917,7 @@
     "mounts": [
       {
         "mountId": 463,
+        "itemId": 85262,
         "name": "Amber Scorpion",
         "cost": "10,000g",
         "vendorName": "Ambersmith Zikk",
@@ -1797,6 +1933,7 @@
     "mounts": [
       {
         "mountId": 509,
+        "itemId": 89363,
         "name": "Red Flying Cloud",
         "cost": "480g",
         "vendorName": "Tan Shin Tiao",
@@ -1812,6 +1949,7 @@
     "mounts": [
       {
         "mountId": 398,
+        "itemId": 63044,
         "name": "Brown Riding Camel",
         "cost": "100g",
         "vendorName": "Blacksmith Abasi",
@@ -1820,6 +1958,7 @@
       },
       {
         "mountId": 399,
+        "itemId": 63045,
         "name": "Tan Riding Camel",
         "cost": "100g",
         "vendorName": "Blacksmith Abasi",
@@ -1835,6 +1974,7 @@
     "mounts": [
       {
         "mountId": 289,
+        "itemId": 43961,
         "name": "Grand Ice Mammoth",
         "faction": "alliance",
         "cost": "10,000g",
@@ -1844,6 +1984,7 @@
       },
       {
         "mountId": 288,
+        "itemId": 44086,
         "name": "Grand Ice Mammoth",
         "faction": "horde",
         "cost": "10,000g",
@@ -1853,6 +1994,7 @@
       },
       {
         "mountId": 259,
+        "itemId": 43958,
         "name": "Ice Mammoth",
         "faction": "alliance",
         "cost": "1,000g",
@@ -1863,6 +2005,7 @@
       },
       {
         "mountId": 258,
+        "itemId": 44080,
         "name": "Ice Mammoth",
         "faction": "horde",
         "cost": "1,000g",
@@ -1880,6 +2023,7 @@
     "mounts": [
       {
         "mountId": 278,
+        "itemId": 44707,
         "name": "Green Proto-Drake",
         "cost": "3g",
         "requiredStanding": "revered",
@@ -1896,6 +2040,7 @@
     "mounts": [
       {
         "mountId": 249,
+        "itemId": 43955,
         "name": "Red Drake",
         "cost": "2,000g",
         "vendorName": "Cielstrasza",
@@ -1912,6 +2057,7 @@
     "mounts": [
       {
         "mountId": 170,
+        "itemId": 31830,
         "name": "Cobalt Riding Talbuk",
         "cost": "56g",
         "vendorName": "Trader Narasu",
@@ -1920,6 +2066,7 @@
       },
       {
         "mountId": 153,
+        "itemId": 29227,
         "name": "Cobalt War Talbuk",
         "cost": "80g",
         "vendorName": "Trader Narasu",
@@ -1928,6 +2075,7 @@
       },
       {
         "mountId": 172,
+        "itemId": 31832,
         "name": "Silver Riding Talbuk",
         "cost": "70g",
         "vendorName": "Trader Narasu",
@@ -1936,6 +2084,7 @@
       },
       {
         "mountId": 155,
+        "itemId": 29229,
         "name": "Silver War Talbuk",
         "cost": "80g",
         "vendorName": "Trader Narasu",
@@ -1944,6 +2093,7 @@
       },
       {
         "mountId": 173,
+        "itemId": 31834,
         "name": "Tan Riding Talbuk",
         "cost": "56g",
         "vendorName": "Trader Narasu",
@@ -1952,6 +2102,7 @@
       },
       {
         "mountId": 156,
+        "itemId": 29230,
         "name": "Tan War Talbuk",
         "cost": "100g",
         "vendorName": "Trader Narasu",
@@ -1960,6 +2111,7 @@
       },
       {
         "mountId": 174,
+        "itemId": 31836,
         "name": "White Riding Talbuk",
         "cost": "70g",
         "vendorName": "Trader Narasu",
@@ -1968,6 +2120,7 @@
       },
       {
         "mountId": 154,
+        "itemId": 29231,
         "name": "White War Talbuk",
         "cost": "80g",
         "vendorName": "Trader Narasu",
@@ -1984,6 +2137,7 @@
     "mounts": [
       {
         "mountId": 170,
+        "itemId": 31829,
         "name": "Cobalt Riding Talbuk",
         "cost": "70g",
         "vendorName": "Provisioner Nasela",
@@ -1992,6 +2146,7 @@
       },
       {
         "mountId": 153,
+        "itemId": 29102,
         "name": "Cobalt War Talbuk",
         "cost": "100g",
         "vendorName": "Provisioner Nasela",
@@ -2000,6 +2155,7 @@
       },
       {
         "mountId": 172,
+        "itemId": 31831,
         "name": "Silver Riding Talbuk",
         "cost": "70g",
         "vendorName": "Provisioner Nasela",
@@ -2008,6 +2164,7 @@
       },
       {
         "mountId": 155,
+        "itemId": 29104,
         "name": "Silver War Talbuk",
         "cost": "100g",
         "vendorName": "Provisioner Nasela",
@@ -2016,6 +2173,7 @@
       },
       {
         "mountId": 173,
+        "itemId": 31833,
         "name": "Tan Riding Talbuk",
         "cost": "70g",
         "vendorName": "Provisioner Nasela",
@@ -2024,6 +2182,7 @@
       },
       {
         "mountId": 156,
+        "itemId": 29105,
         "name": "Tan War Talbuk",
         "cost": "100g",
         "vendorName": "Provisioner Nasela",
@@ -2032,6 +2191,7 @@
       },
       {
         "mountId": 174,
+        "itemId": 31835,
         "name": "White Riding Talbuk",
         "cost": "70g",
         "vendorName": "Provisioner Nasela",
@@ -2040,6 +2200,7 @@
       },
       {
         "mountId": 154,
+        "itemId": 29103,
         "name": "White War Talbuk",
         "cost": "100g",
         "vendorName": "Provisioner Nasela",
@@ -2055,6 +2216,7 @@
     "mounts": [
       {
         "mountId": 187,
+        "itemId": 32858,
         "name": "Azure Netherwing Drake",
         "cost": "200g",
         "vendorName": "Drake Dealer Hurlunk",
@@ -2063,6 +2225,7 @@
       },
       {
         "mountId": 188,
+        "itemId": 32859,
         "name": "Cobalt Netherwing Drake",
         "cost": "200g",
         "vendorName": "Drake Dealer Hurlunk",
@@ -2071,6 +2234,7 @@
       },
       {
         "mountId": 186,
+        "itemId": 32857,
         "name": "Onyx Netherwing Drake",
         "cost": "200g",
         "vendorName": "Drake Dealer Hurlunk",
@@ -2079,6 +2243,7 @@
       },
       {
         "mountId": 189,
+        "itemId": 32860,
         "name": "Purple Netherwing Drake",
         "cost": "200g",
         "vendorName": "Drake Dealer Hurlunk",
@@ -2087,6 +2252,7 @@
       },
       {
         "mountId": 190,
+        "itemId": 32861,
         "name": "Veridian Netherwing Drake",
         "cost": "200g",
         "vendorName": "Drake Dealer Hurlunk",
@@ -2095,6 +2261,7 @@
       },
       {
         "mountId": 191,
+        "itemId": 32862,
         "name": "Violet Netherwing Drake",
         "cost": "200g",
         "vendorName": "Drake Dealer Hurlunk",
@@ -2110,6 +2277,7 @@
     "mounts": [
       {
         "mountId": 180,
+        "itemId": 32319,
         "name": "Blue Riding Nether Ray",
         "cost": "200g",
         "vendorName": "Grella",
@@ -2118,6 +2286,7 @@
       },
       {
         "mountId": 176,
+        "itemId": 32314,
         "name": "Green Riding Nether Ray",
         "cost": "200g",
         "vendorName": "Grella",
@@ -2126,6 +2295,7 @@
       },
       {
         "mountId": 178,
+        "itemId": 32316,
         "name": "Purple Riding Nether Ray",
         "cost": "200g",
         "vendorName": "Grella",
@@ -2134,6 +2304,7 @@
       },
       {
         "mountId": 177,
+        "itemId": 32317,
         "name": "Red Riding Nether Ray",
         "cost": "200g",
         "vendorName": "Grella",
@@ -2142,6 +2313,7 @@
       },
       {
         "mountId": 179,
+        "itemId": 32318,
         "name": "Silver Riding Nether Ray",
         "cost": "200g",
         "vendorName": "Grella",
@@ -2157,6 +2329,7 @@
     "mounts": [
       {
         "mountId": 203,
+        "itemId": 33999,
         "name": "Cenarion War Hippogryph",
         "cost": "2,000g",
         "vendorName": "Fedryen Swiftspear",
@@ -2179,6 +2352,7 @@
     "mounts": [
       {
         "mountId": 3066,
+        "itemId": 276926,
         "name": "Corrupted Swarmer",
         "requiredStanding": "exalted",
         "vendorName": "Estelia Archtender",
@@ -2202,6 +2376,7 @@
     "mounts": [
       {
         "mountId": 3019,
+        "itemId": 275653,
         "name": "Sea-Dwelling Isle Serpent",
         "requiredStanding": "bloodsworn crew",
         "vendorName": "Second Mate Sluggs",
